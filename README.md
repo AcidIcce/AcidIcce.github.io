@@ -1,2 +1,2 @@
 # My projects
-[Modus Versus](acidicce.github.io/modus_versus)
+[Modus Versus](https://acidicce.github.io/modus_versus/)
