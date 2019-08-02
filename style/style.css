@@ -1,0 +1,142 @@
+/*Colors*/
+html {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  cursor: default;
+}
+
+body {
+  background-color: #000;
+  -webkit-animation-name: body_anim;
+          animation-name: body_anim;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+@-webkit-keyframes body_anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes body_anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.header-section {
+  padding-top: 2rem;
+}
+
+.header-section .header-section-row .header-section-row-title {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+.menu-section .menu-section-row-menu {
+  list-style-type: none;
+}
+
+.menu-section .menu-section-row-menu .menu-section-row-menu-item {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 200;
+  margin: 2rem 1rem 0rem 1rem;
+}
+
+.menu-section .menu-section-row-menu .menu-section-row-menu-item:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 0.1rem;
+}
+
+.face-section {
+  padding-top: 5rem;
+}
+
+.face-section .face-section-face {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: face_anim;
+          animation-name: face_anim;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.face-section .face-section-face .face-section-face-lefteye {
+  height: 5rem;
+  width: 5rem;
+  background-color: #fff;
+  display: inline-block;
+  margin: auto 3rem;
+  -webkit-box-shadow: 0 0 10rem #fff;
+          box-shadow: 0 0 10rem #fff;
+}
+
+.face-section .face-section-face .face-section-face-righteye {
+  height: 5rem;
+  width: 5rem;
+  background-color: #fff;
+  display: inline-block;
+  margin: auto 3rem;
+  -webkit-box-shadow: 0 0 10rem #fff;
+          box-shadow: 0 0 10rem #fff;
+}
+
+@-webkit-keyframes face_anim {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  30% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@keyframes face_anim {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  30% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+.posts-section {
+  padding-top: 2rem;
+}
+
+.posts-section .posts-section-post {
+  margin: 3rem auto;
+}
+
+.posts-section .posts-section-post h3 {
+  font-weight: 200;
+  color: #fff;
+  font-size: 1.6rem;
+}
+/*# sourceMappingURL=style.css.map */
